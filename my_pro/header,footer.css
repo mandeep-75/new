@@ -10,6 +10,7 @@
   z-index: 100;
   position: fixed;
 }
+
 .text-1 {
   color: whitesmoke;
   display: inline;
@@ -23,10 +24,12 @@
   background-color: rgb(238, 39, 39);
   color: white;
   width: 120px;
+
   border-width: 0;
   height: 35px;
   transition: opacity 1s;
 }
+
 .join-button:hover {
   background-color: rgb(185, 30, 30);
   opacity: 0.5;
