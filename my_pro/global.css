@@ -1,0 +1,12 @@
+.body {
+  background-color: #181818;
+  font-family: "roboto";
+}
+.Movies p {
+  text-align: center;
+  color: rgb(166, 144, 144);
+}
+.Movies img {
+  margin-right: 20px;
+  height: 150px;
+}

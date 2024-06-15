@@ -1,0 +1,82 @@
+.header {
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  align-items: center;
+  z-index: 100;
+  position: fixed;
+}
+.text-1 {
+  color: whitesmoke;
+  display: inline;
+  transition: opacity 1s;
+}
+.netflix-icon {
+  height: 55px;
+}
+.join-button {
+  border-radius: 4px;
+  background-color: rgb(238, 39, 39);
+  color: white;
+  width: 120px;
+  border-width: 0;
+  height: 35px;
+  transition: opacity 1s;
+}
+.join-button:hover {
+  background-color: rgb(185, 30, 30);
+  opacity: 0.5;
+}
+.sign-button {
+  background-color: black;
+  border-color: rgb(122, 122, 122);
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  width: 100px;
+  margin-left: 5px;
+  border-radius: 2px;
+  height: 30px;
+  transition: opacity 1s;
+}
+.sign-button:hover {
+  background-color: rgb(90, 84, 84);
+  opacity: 0.5;
+}
+
+.main-txt {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+.main-txt p {
+  margin-top: 8px;
+  font-weight: 600;
+  color: white;
+}
+.main-txt h1 {
+  margin-bottom: 10px;
+  font-size: 80px;
+  color: white;
+}
+.footer {
+  text-align: center;
+  font-size: 25px;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: rgb(213, 203, 203);
+}
+.footer .txt-foot {
+  font-size: 45px;
+}
+@media (max-width: 750.1px) {
+  .text-1 {
+    opacity: 0;
+    font-size: 0px;
+  }
+}

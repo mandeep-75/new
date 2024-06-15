@@ -1,0 +1,15 @@
+.video-arry {
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+}
+.video-arry::-webkit-scrollbar {
+  width: 0;
+}
+.main-txt-1 {
+  margin-bottom: 30px;
+  font-weight: 300;
+  font-size: larger;
+  color: rgb(221, 211, 211);
+  margin-top: 60px;
+}
